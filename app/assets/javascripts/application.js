@@ -17,10 +17,10 @@ require jquery
 
  $(document).ready(function() {
 
- $('#hidden_text').hide(); //Initially form wil be hidden.
+ $('#hidden_text').hide(); //Initially form will be hidden.
 
   $('#delete').click(function() {
-   $('#hidden_text').show();//Form shows on button click
+   $('#hidden_text').show(); //Form shows on button click
 
    });
  });

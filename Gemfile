@@ -16,6 +16,8 @@ group :production do
 end
 
 gem "twitter-bootstrap-rails"
+gem "jquery-rails"
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
