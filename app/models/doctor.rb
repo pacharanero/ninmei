@@ -6,4 +6,10 @@ class Doctor < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   attr_accessible :email, :password, :password_confirmation, :remember_me
   attr_accessible :title, :body
+
+  def to_s
+  	email
+  end
+
+  has_many :appointments
 end

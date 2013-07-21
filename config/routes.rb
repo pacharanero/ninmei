@@ -3,7 +3,11 @@ Ninmei::Application.routes.draw do
 
   resources :patients
 
+  resources :appointments
+
   root to: 'pages#index'
+
+
 
   get 'about', to: 'pages#about'
 
